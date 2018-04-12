@@ -8,6 +8,7 @@ const followingSchema = mongoose.Schema({
     
     following: [{
         username: String,
+        id: String
     }]
 });
 

@@ -1,0 +1,23 @@
+{
+  "name": "following-mongoose-schema",
+  "version": "1.0.0",
+  "description": "Mongoose schema for twitter-ms",
+  "main": "following-model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Raiyan/following-mongoose-schema.git"
+  },
+  "author": "Muhammad Raiyanul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Raiyan/following-mongoose-schema/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Raiyan/following-mongoose-schema#readme",
+  "dependencies": {
+    "mongoose": "^5.0.14",
+    "mongoose-timestamp": "^0.6.0"
+  }
+}

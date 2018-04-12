@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const timestamps = require('mongoose-timestamp');
 
-const followerSchema = mongoose.Schema({
+const followingSchema = mongoose.Schema({
     username: {
         type: String
     },
@@ -11,5 +11,5 @@ const followerSchema = mongoose.Schema({
     }]
 });
 
-tweetSchema.plugin(timestamps);
-module.exports = mongoose.model('followings', tweetSchema);
+followingSchema.plugin(timestamps);
+module.exports = mongoose.model('followings', followingSchema);
